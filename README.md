@@ -4,18 +4,19 @@ This repository provides the computational framework used to decode the regulato
 
 ## 📝 Abstract
 
-Vegetative desiccation tolerance (VDT) enables resurrection plants to withstand extreme water loss. By integrating **Time-series RNA-seq**, **Ensemble Network Inference**, **Graph Attention Networks (GATs)**, and **Protein Language Models (PLMs)**, we reveal two distinct transcriptional strategies:
-* **Intermediate Dehydration**: Active damage control through complex transcriptional responses.
-* **Extreme Dehydration**: Transition to a minimalist, stable transcriptome.
-* **Recovery**: Identification of 12 persistent regulators driving rapid cellular reconstruction through context-specific functional reprogramming.
+Vegetative desiccation tolerance enables resurrection plants to withstand extreme water loss. By employing time-series RNA-seq and a GNN-based computational pipeline, we identified two distinct strategies for dehydration tolerance:
+1. **Intermediate Dehydration**: Active damage control via complex transcriptional responses.
+2. **Extreme Dehydration**: A transition to a minimalist, stable transcriptome.
+
+Our network analysis identified **12 persistent regulators** that bridge quiescence and recovery, undergoing context-specific functional reprogramming to drive cellular reconstruction.
+
 ---
 
 ## 🚀 Features
-* **Protein Embeddings:** Leverages the `ESM-2` transformer model to generate functional representations of protein sequences.
-* **Graph Neural Networks:** Implements `GATv2Conv` for link prediction on Gene Regulatory Networks (GRN).
-* **Multi-Method Integration:** A robust `DataLoader` to aggregate predictions from various GRN inference methods (GENIE3, SWING, PEAK, etc.).
-* **PCA-Enhanced Features:** Combines scaled expression time-series data with PLM embeddings for rich node characterization.
 
+- **Multi-modal Integration**: Combines time-series transcriptomics with sequence-based protein embeddings (ESM-2).
+- **GATv2 Architecture**: Employs Graph Attention Networks for high-accuracy regulatory link prediction.
+- **Workflow Automation**: Scripts for embedding extraction, data preprocessing, and model training/evaluation.
 ---
 
 ## 📦 Installation
