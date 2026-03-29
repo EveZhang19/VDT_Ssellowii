@@ -24,3 +24,19 @@ The project integrates high-dimensional expression data with protein language mo
 Install the required packages via pip:
 ```bash
 pip install torch torch-geometric pandas numpy scikit-learn biopython transformers
+
+```
+
+---
+## 📂 Project Structure
+
+```text
+├── data/                   # Place your input files here (FASTA, CSV, NPY)
+├── output/                 # Model checkpoints and final embeddings
+├── scripts/
+│   ├── extract_plm.py      # ESM-2 embedding generation script
+│   ├── train_gat.py        # GATv2 training and evaluation script
+│   └── data_loader.py      # Data processing and method integration
+└── requirements.txt        # Environment dependencies
+```
+
