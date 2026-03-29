@@ -1,4 +1,4 @@
-# Selaginella sellowii Gene Regulatory Networks Reveal Distinct Transcriptional Strategies for Dehydration Stress and Recovery
+# _Selaginella sellowii_ Gene Regulatory Networks Reveal Distinct Transcriptional Strategies for Dehydration Stress and Recovery
 
 This repository provides the computational framework used to decode the regulatory blueprint of vegetative desiccation tolerance (VDT) in the resurrection plant *Selaginella sellowii*. 
 
