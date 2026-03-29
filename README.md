@@ -1,9 +1,13 @@
-# GATv2-GRN: Link Prediction for Gene Regulatory Networks
+# Selaginella sellowii Gene Regulatory Networks Reveal Distinct Transcriptional Strategies for Dehydration Stress and Recovery
 
-This repository contains a specialized pipeline for predicting gene regulatory interactions using **GATv2 (Graph Attention Networks)** and **ESM-2 (Evolutionary Scale Modeling)** protein embeddings. 
+This repository provides the computational framework used to decode the regulatory blueprint of vegetative desiccation tolerance (VDT) in the resurrection plant *Selaginella sellowii*. 
 
-The project integrates high-dimensional expression data with protein language model features to infer complex biological relationships.
+## 📝 Abstract
 
+Vegetative desiccation tolerance (VDT) enables resurrection plants to withstand extreme water loss. By integrating **Time-series RNA-seq**, **Ensemble Network Inference**, **Graph Attention Networks (GATs)**, and **Protein Language Models (PLMs)**, we reveal two distinct transcriptional strategies:
+* **Intermediate Dehydration**: Active damage control through complex transcriptional responses.
+* **Extreme Dehydration**: Transition to a minimalist, stable transcriptome.
+* **Recovery**: Identification of 12 persistent regulators driving rapid cellular reconstruction through context-specific functional reprogramming.
 ---
 
 ## 🚀 Features
