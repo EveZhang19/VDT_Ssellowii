@@ -8,7 +8,7 @@
 # 1. check paras
 if [ "$#" -ne 3 ]; then
     echo "Error: Missing arguments!"
-    echo "Usage: bash $0 <INPUT_RAW_DIR> <OUTPUT_BASE_DIR> <REFERENCE_FASTA>E"
+    echo "Usage: bash $0 <INPUT_RAW_DIR> <OUTPUT_BASE_DIR> <REFERENCE_FASTA>"
     exit 1
 fi
 
