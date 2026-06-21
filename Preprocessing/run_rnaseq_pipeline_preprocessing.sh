@@ -16,8 +16,8 @@ INPUT_RAW_DIR="$1"
 OUTPUT_BASE_DIR="$2"
 REF_FASTA="$3"
 
-TRIMMOMATIC_JAR="/home/jingyi19/tools/Trimmomatic-0.39/trimmomatic-0.39.jar"
-ADAPTER_FILE="/home/jingyi19/tools/Trimmomatic-0.39/TruSeq3-PE.fa"
+TRIMMOMATIC_JAR="~/tools/Trimmomatic-0.39/trimmomatic-0.39.jar"
+ADAPTER_FILE="~/tools/Trimmomatic-0.39/TruSeq3-PE.fa"
 
 TRIM_OUT_DIR="$OUTPUT_BASE_DIR/trim"
 EXP_OUT_DIR="$OUTPUT_BASE_DIR/exp"
