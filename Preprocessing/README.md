@@ -16,7 +16,7 @@ nohup bash run_rnaseq_pipeline_preprocessing.sh \
   <INPUT_RAW_DIR> \
   <OUTPUT_BASE_DIR> \
   <TRANSCRIPTOME_FASTA> \
-  > <OUTPUT_BASE_DIR>/pipeline_run.log 2>&1 &
+  > <OUTPUT_BASE_DIR>/pipeline.log 2>&1 &
 ```
 
 ### Argument Definitions:
