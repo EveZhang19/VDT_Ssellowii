@@ -166,10 +166,3 @@ tar -czf "$FINAL_TAR_PATH" "$OUTPUT_DIR_NAME/exp" "$OUTPUT_DIR_NAME/QC_summary.c
 
 echo "   -> Final package created successfully!" | tee -a "$LOG_FILE"
 echo "   -> Location: $FINAL_TAR_PATH" | tee -a "$LOG_FILE"
-
-
-
-
-
-
-               
